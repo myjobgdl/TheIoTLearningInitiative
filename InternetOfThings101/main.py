@@ -4,6 +4,11 @@ import psutil
 import signal
 import sys
 import time
+def functionDataActuator():
+   print "Data Actuator"
+import signal
+import sys
+import time
 
 def functionDataSensor():
    netdata = psutil.net_io_counters()
